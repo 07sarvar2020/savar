@@ -1,12 +1,13 @@
 
-function tanishuv(name, year, god, car) {
-    return `Mani ismim ${name}. Hozir ${year} yil. Man ${god} yilman. Mani moshinam bor ${car} markasi yoqadi`
-}
-alert(tanishuv('Ivan','2021' , '1992' , 'Tesla'));
 
-function  yosh ( year , god) {
-    return `Man yoshim ${year-god} da orzularga yetish shart ;`
-}
-alert(yosh(2021, 1992, ));
+let Name = prompt('ismngizni kiriting');
+let year = +prompt('hozirgi yil')
+let god  = +prompt("tug'ilgan yilingan yilingiz")
+let car  = prompt('yoqtirgan moshina markangiz')
 
+function  tanishuv(Name,year,god,car) {
+   
+    console.log(`Mani ismim ${Name}. hozir ${year} yil. Man ${god} tugilgan man. Man ${car} markasiga qiziqaman.`);
+}
+alert(tanishuv ( Name ,year ,god ,car ) )
  
