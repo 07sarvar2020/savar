@@ -7,7 +7,7 @@ let car  = prompt('yoqtirgan moshina markangiz')
 
 function  tanishuv(Name,year,god,car) {
    
-    console.log(`Mani ismim ${Name}. hozir ${year} yil. Man ${god} tugilgan man. Man ${car} markasiga qiziqaman.`);
+    alert(`Mani ismim ${Name}. hozir ${year} yil. Man ${god} tugilgan man. Man ${car} markasiga qiziqaman.`);
 }
 alert(tanishuv ( Name ,year ,god ,car ) )
  
