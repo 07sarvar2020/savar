@@ -9,5 +9,5 @@ function  tanishuv(Name,year,god,car) {
    
     alert(`Mani ismim ${Name}. hozir ${year} yil. Man ${god} tugilgan man. Man ${car} markasiga qiziqaman.`);
 }
-alert(tanishuv ( Name ,year ,god ,car ) )
+tanishuv( Name ,year ,god ,car ) 
  
